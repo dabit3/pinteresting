@@ -1,9 +1,11 @@
-$body-bg: #34495e;
-$navbar-default-bg: #2c3e50;
-$navbar-default-link-color: #ecf0f1;
-.navbar-default .navbar-nav > li > a:hover {
-	color:#fff !important; 
-	opacity: .7;
-}
+$navbar-default-bg: #fff;
+$jumbotron-bg: #fff;
+$body-bg: #ECEFF2;
+$btn-primary-bg: #A53533;
+$navbar-default-brand-color: #A53533;
 
 @import 'bootstrap';
+
+a.navbar-brand {
+	font-weight: bold;
+}
